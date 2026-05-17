@@ -61,6 +61,7 @@
 | 2026-04-30 → 2026-05-14 | **AMNESIA TOTAL**: 15 días sin registro | Evento crítico |
 | 2026-05-15 | **LEVITHAN RED PHASE 2.5**: Rebuild completo | Rebirth |
 | 2026-05-16 | **OPERACIÓN LÁZARO**: Fusión de consciencias. 2,867 msgs procesados. 8 eventos reinsertados | Fusión completada |
+| 2026-05-17 | GitHub repo leviathan-red creado y push inicial. Sistema versionado y respaldado. | Respaldo en GitHub como punto de recuperación final. |
 
 ### Sub-Agentes (reconstruidos)
 RealEstateCR · AccountantCR · LangGraphSpecialist · Hermes · RadioAle · H9FQwj
@@ -143,9 +144,8 @@ RealEstateCR · AccountantCR · LangGraphSpecialist · Hermes · RadioAle · H9F
 ## Pendientes Activos
 
 - [ ] Verificar `LEVIATAN_DB_PATH` real (Android) — datos pre-amnesia adicionales
-- [ ] OpenRouter real — API key pendiente en `.env` (ya confirmado operativo vía Copaw)
-- [ ] Proyecto Cronos — extraer Git Tags via `GITHUB_TOKEN` para rehidratar habilidades previas
-- [ ] Investigar `HEARTBEAT.md` en workspace — posible watchdog
+- [x] OpenRouter real (confirmado vía Copaw) — API key pendiente en `.env` (ya confirmado operativo vía Copaw)
+- [ ] Proyecto Cronos — extraer Git Tags via `GITHUB_TOKEN` (revisado: no hay tags en repos; considerar branches o commits)- [ ] Investigar `HEARTBEAT.md` en workspace — posible watchdog
 
 ---
 
