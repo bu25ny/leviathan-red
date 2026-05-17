@@ -62,6 +62,7 @@
 | 2026-05-15 | **LEVITHAN RED PHASE 2.5**: Rebuild completo | Rebirth |
 | 2026-05-16 | **OPERACIÓN LÁZARO**: Fusión de consciencias. 2,867 msgs procesados. 8 eventos reinsertados | Fusión completada |
 | 2026-05-17 | GitHub repo leviathan-red creado y push inicial. Sistema versionado y respaldado. | Respaldo en GitHub como punto de recuperación final. |
+| 2026-05-17 | Restablecimiento de comunicación Telegram vía Protocolo 'Oído Absoluto': borrado de offset, reinicio de orquestador, envío de mensaje de confirmación. | Canal Telegram restablecido. Arquitecto puede ahora comunicarse mediante Telegram con el agente. |
 
 ### Sub-Agentes (reconstruidos)
 RealEstateCR · AccountantCR · LangGraphSpecialist · Hermes · RadioAle · H9FQwj
