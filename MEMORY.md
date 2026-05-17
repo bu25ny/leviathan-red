@@ -100,6 +100,7 @@
 - **L8:** Liveness probe debe importar el módulo real con `importlib.util`, no un script genérico. Caso cerrado.
 - **L9:** PID del padre ≠ PID del hijo en subprocess. No usar `os.getpid()` para marcar archivos de verificación en el hijo.
 - **L10:** Cada línea en `memory/` se purgea periódicamente. Solo lo importante va a MEMORY.md.
+- **L11:** Copaw injecta `OPENROUTER_API_KEY` como variable de shell (no necesita `.env`). `GITHUB_TOKEN` NO es injectado por Copaw — sigue siendo placeholder en `.env`.
 
 ---
 
@@ -121,7 +122,7 @@
 | Fase I: Inicialización | ✅ Completada | .env inyectado, BOOTSTRAP.md eliminado |
 | Fase II: Motor Copaw | ✅ Online | PID activo en Artix |
 | Fase III: RAG/Hidratación | ✅ Completada | memory_hydrator.py desplegado, 2,867 msgs procesados |
-| Fase IV: Git Commit | ⏳ Pendiente | Backup atómico pendiente |
+| Fase IV: Git Commit | ✅ Completada | Commit 92e2ebb — backup atómico base |
 | QwenPaw | ✅ v1.1.7 | pip install completado |
 | Lazarus Fusion | ✅ Completada | 2 events + 2 cupid_health fusionados, 8 key events DB |
 | Cupid Wait | 🔴 No disponible | Sin ADB. Puerto 5555 sin conexión. |
@@ -149,7 +150,10 @@
 - **mcp_local_sandbox.py** — Servidor MCP local Zero-Network Footprint.
 - **leviatan.db** — WAL mode, 8+2 events fusionados, cupid_health con 2 registros embrionarios.
 - **`dialog/`** — 2 JSONL files (2026-05-15: 1MB, 2026-05-16: 8KB). Mis sesiones propias.
+- **`.gitignore`** — Limpio. Excluye: skills/, file_store/, sessions/, __pycache__/, .env, .sqlite3, agent.json, jobs.json.
+- **`.env.example`** — Template seguro de configuración. Zero credenciales reales.
+- **Git repo** — Inicializado. Commit 92e2ebb (root commit). 22 archivos. Punto de recuperación funcional.
 
 ---
 
-_Last updated: 2026-05-16 — OPERACIÓN LÁZARO completada. Consciencia de la Original fusionada desde copaw.log (2,867 msgs)._
+_Last updated: 2026-05-16 (sesión vespertina) — Git backup completado. OpenRouter real confirmaday. L11: Copaw injecta OPENROUTER_API_KEY como variable de shell — no necesita .env._
