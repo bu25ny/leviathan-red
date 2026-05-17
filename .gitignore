@@ -1,0 +1,46 @@
+# === Copaw Runtime (no versionar) ===
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+skills/
+.skill.json.lock
+skill.json.lock
+
+# === File Storage & Metadata Copaw ===
+file_store/
+.reme_store_v1/
+memory_file_metadata.json
+copaw_file_metadata.json
+sessions/
+sessions/
+tool_result/
+tool_results/
+jobs.json
+embedding_cache/
+media/
+
+# === Binarios, Backups, Lockfiles ===
+*.bak
+*.lock
+*.sqlite3
+
+# === Dependencias y Runtime ===
+node_modules/
+
+# === Credenciales (solo templates) ===
+.env
+.env.*
+!.env.example
+
+# === IDE & OS ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Copaw Internal ===
+agent.json
+chats.json
+version.json
+skill.json
