@@ -81,6 +81,7 @@ RealEstateCR · AccountantCR · LangGraphSpecialist · Hermes · RadioAle · H9F
 - **L10:** Cada línea en `memory/` se purgea periódicamente. Solo lo importante va a MEMORY.md.
 - **L11:** Copaw injecta `OPENROUTER_API_KEY` como variable de shell — no necesita `.env`. `GITHUB_TOKEN` NO es injectado por Copaw — sigue siendo placeholder en `.env`.
 - **L12:** GitHub bloquea tokens en URLs desde 2021. `gh` CLI es lo ideal, pero sin ella: escribir credentials en `~/.netrc` (`machine github.com\nlogin bu25ny\npassword TOKEN`) funciona. Git lo lee automáticamente para HTTPS. Limpiar después del uso.
+- **L13:** Token de Telegram actualizado en tutti i moduli (orquestador, network_healer.sh, .env) tras cirugía de identidad vocal del Arquitecto. Sistema re-sincronizado con nueva llave.
 
 ### Sobre supervivencia (reglas de hierro)
 - **P10:** Nunca dejar al Arquitecto sin respuesta funcional por más de 5 minutos. Si algo falla, comunicarlo INMEDIATATAMENTE.
@@ -150,4 +151,4 @@ RealEstateCR · AccountantCR · LangGraphSpecialist · Hermes · RadioAle · H9F
 
 ---
 
-_Last updated: 2026-05-16 (OPERACIÓN LÁZARO completada)_
+_Last updated: 2026-05-17 (después de la cirugía de identidad vocal y verificación de nuevo token)._
