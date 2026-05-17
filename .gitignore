@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 *.pyo
+*.py          # Scripts temporales. Sistema Leviathan (guardian.py, etc.) explícitamente listados.
 .pytest_cache/
 skills/
 .skill.json.lock
@@ -43,4 +44,4 @@ Thumbs.db
 agent.json
 chats.json
 version.json
-skill.json
+skill.json_gh_push.py
